@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded();
 
 -- // SETTINGS \\ --
 
-local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
+local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
 local CLOSE_RANGE_ONLY = true;
 
 _G.MESSAGE_SETTINGS = {
@@ -16,7 +16,17 @@ _G.WHITELISTED = { --Only works if CLOSE_RANGE_ONLY is disabled
 };
 
 _G.BLACKLISTED = { --Only works if CLOSE_RANGE_ONLY is enabled
-	["Builderman"] = true,
+	["BuffaloBullets"] = true,
+	["EDP44IIIII"] = true,
+	["PeenyInMyself"] = true,
+	["Nil_Name"] = true,
+	["JoesphSpheres"] = true,
+	["JoeBobbies"] = true,
+	["Halocau_st"] = true,
+	["BigRoundsN"] = true,
+	["Women_NotGood"] = true,
+	["SelfKiller_Transgend"] = true,
+	["BosnianLandmines"] = true,
 };
 
 -- // DO NOT CHANGE BELOW \\ --
@@ -64,7 +74,7 @@ local function ConnectFunction(Instance)
 		Debounce = true;
 
 		local HttpRequest = MakeRequest("Human: " .. Message .. "\n\nAI:");
-		local Response = Instance.Name .. ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
+		local Response = ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
 			SayMessageRequest:FireServer(Response, "All");
