@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded();
 
 -- // SETTINGS \\ --
 
-local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
+local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
 local CLOSE_RANGE_ONLY = true;
 
 _G.MESSAGE_SETTINGS = {
@@ -42,14 +42,6 @@ local LocalPlayer = Players.LocalPlayer;
 local SayMessageRequest = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest");
 local Debounce = false;
 
-AssPenis = function(content)
-	local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-	ChatBAR.Text = content
-	firesignal(ChatBAR.FocusLost,true)
-end
-
-AssPenis("Sentience")
-
 local function MakeRequest(Prompt)
 	return syn.request({
 		Url = "https://api.openai.com/v1/completions", 
@@ -85,20 +77,20 @@ local function ConnectFunction(Instance)
 		local Response = Instance.Name .. ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
-			AssPenis(Response)
+			SayMessageRequest:FireServer(Response, "All");
 			wait(5);
 			Debounce = false;
 		else
 			warn("Response (> 128): " .. Response);
 			if #Response - 128 < 128 then
-				AssPenis(string.sub(Response, 1, 128), "All");
+				SayMessageRequest:FireServer(string.sub(Response, 1, 128), "All");
 				delay(3, function()
-					AssPenis(string.sub(Response, 129), "All");
+					SayMessageRequest:FireServer(string.sub(Response, 129), "All");
 					wait(5);
 					Debounce = false;
 				end)	
 			else
-				AssPenis("Sorry but the answer was too big, please try again.", "All");
+				SayMessageRequest:FireServer("Sorry but the answer was too big, please try again.", "All");
 				wait(2.5);
 				Debounce = false;
 			end
