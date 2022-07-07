@@ -80,7 +80,7 @@ local function ConnectFunction(Instance)
 		Debounce = true;
 
 		local HttpRequest = MakeRequest("Human: " .. Message .. "\n\nAI:");
-		local Response = string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
+		local Response = Instance.Name .. ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
 			AssPenis(Response)
