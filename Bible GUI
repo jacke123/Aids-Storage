@@ -7084,8 +7084,10 @@ updatePG = function()
 	for i,x in pairs(Storage:GetChildren()) do
 		if x.Name == tostring(CurrentPGNum) or tonumber(x.Name) == nil and x ~= PagePlaceHolder then
 			x.Visible = true
+			CreateRobots.Visible = false
 		else
 			x.Visible = false
+			CreateRobots.Visible = false
 		end
 	end
 end
@@ -7093,11 +7095,13 @@ nfxt.MouseButton1Click:Connect(function()
 	if CurrentPGNum ~= (num - 2) then
 		CurrentPGNum += 1
 		updatePG()
+		CreateRobots.Visible = false
 	end
 end)
 back.MouseButton1Click:Connect(function()
 	if CurrentPGNum ~= 1 then
 		CurrentPGNum -= 1
 		updatePG()
+		CreateRobots.Visible = false
 	end
 end)
