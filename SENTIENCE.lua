@@ -2,12 +2,12 @@ repeat wait() until game:IsLoaded();
 
 -- // SETTINGS \\ --
 
-local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
+local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
 local CLOSE_RANGE_ONLY = true;
 
 _G.MESSAGE_SETTINGS = {
-	["MINIMUM_CHARACTERS"] = 2,
-	["MAXIMUM_CHARACTERS"] = 200,
+	["MINIMUM_CHARACTERS"] = 15,
+	["MAXIMUM_CHARACTERS"] = 50,
 	["MAXIMUM_STUDS"] = 15,
 };
 
@@ -16,17 +16,7 @@ _G.WHITELISTED = { --Only works if CLOSE_RANGE_ONLY is disabled
 };
 
 _G.BLACKLISTED = { --Only works if CLOSE_RANGE_ONLY is enabled
-	["BuffaloBullets"] = true,
-	["EDP44IIIII"] = true,
-	["PeenyInMyself"] = true,
-	["Nil_Name"] = true,
-	["JoesphSpheres"] = true,
-	["JoeBobbies"] = true,
-	["Halocau_st"] = true,
-	["BigRoundsN"] = true,
-	["Women_NotGood"] = true,
-	["SelfKiller_Transgend"] = true,
-	["BosnianLandmines"] = true,
+	["Builderman"] = true,
 };
 
 -- // DO NOT CHANGE BELOW \\ --
