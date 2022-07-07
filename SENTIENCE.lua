@@ -1,13 +1,11 @@
-repeat wait() until game:IsLoaded();
-
 -- // SETTINGS \\ --
 
 local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
 local CLOSE_RANGE_ONLY = true;
 
 _G.MESSAGE_SETTINGS = {
-	["MINIMUM_CHARACTERS"] = 15,
-	["MAXIMUM_CHARACTERS"] = 50,
+	["MINIMUM_CHARACTERS"] = 2,
+	["MAXIMUM_CHARACTERS"] = 200,
 	["MAXIMUM_STUDS"] = 15,
 };
 
@@ -64,7 +62,7 @@ local function ConnectFunction(Instance)
 		Debounce = true;
 
 		local HttpRequest = MakeRequest("Human: " .. Message .. "\n\nAI:");
-		local Response = Instance.Name .. ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
+		local Response = string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
 			SayMessageRequest:FireServer(Response, "All");
