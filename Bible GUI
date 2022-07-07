@@ -152,7 +152,7 @@ PagePlaceHolder.Visible = false
 PagePlaceHolder.ZIndex = 7
 PagePlaceHolder.AutomaticCanvasSize = Enum.AutomaticSize.Y
 PagePlaceHolder.BottomImage = "rbxassetid://108790021"
-PagePlaceHolder.MidImage = "rbxassetid://108790021"
+PagePlaceHolder.MidImage = "rbxassetid://3612766879"
 PagePlaceHolder.ScrollBarThickness = 17
 PagePlaceHolder.TopImage = "rbxassetid://108790021"
 
