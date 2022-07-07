@@ -42,6 +42,12 @@ local LocalPlayer = Players.LocalPlayer;
 local SayMessageRequest = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest");
 local Debounce = false;
 
+chat = function(content)
+	local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
+	ChatBAR.Text = content
+	firesignal(ChatBAR.FocusLost,true)
+end
+
 local function MakeRequest(Prompt)
 	return syn.request({
 		Url = "https://api.openai.com/v1/completions", 
@@ -74,10 +80,10 @@ local function ConnectFunction(Instance)
 		Debounce = true;
 
 		local HttpRequest = MakeRequest("Human: " .. Message .. "\n\nAI:");
-		local Response = Instance.Name .. ": " .. string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
+		local Response = string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
-			SayMessageRequest:FireServer(Response, "All");
+			chat(Response)
 			wait(5);
 			Debounce = false;
 		else
