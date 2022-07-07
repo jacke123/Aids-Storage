@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded();
 
 -- // SETTINGS \\ --
 
-local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
+local SECRET_KEY = "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"; --https://beta.openai.com/account/api-keys
 local CLOSE_RANGE_ONLY = true;
 
 _G.MESSAGE_SETTINGS = {
@@ -83,20 +83,20 @@ local function ConnectFunction(Instance)
 		local Response = string.gsub(string.sub(HttpService:JSONDecode(HttpRequest["Body"]).choices[1].text, 2), "[%p%c]", "");
 
 		if #Response < 128 then --200
-			chat(Response)
+			AssPenis(Response)
 			wait(5);
 			Debounce = false;
 		else
 			warn("Response (> 128): " .. Response);
 			if #Response - 128 < 128 then
-				SayMessageRequest:FireServer(string.sub(Response, 1, 128), "All");
+				AssPenis(string.sub(Response, 1, 128), "All");
 				delay(3, function()
-					chat(string.sub(Response, 129), "All");
+					AssPenis(string.sub(Response, 129), "All");
 					wait(5);
 					Debounce = false;
 				end)	
 			else
-				chat("Sorry but the answer was too big, please try again.", "All");
+				AssPenis("Sorry but the answer was too big, please try again.", "All");
 				wait(2.5);
 				Debounce = false;
 			end
