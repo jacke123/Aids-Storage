@@ -42,7 +42,7 @@ local LocalPlayer = Players.LocalPlayer;
 local SayMessageRequest = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest");
 local Debounce = false;
 
-chat = function(content)
+AssPenis = function(content)
 	local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
 	ChatBAR.Text = content
 	firesignal(ChatBAR.FocusLost,true)
@@ -91,12 +91,12 @@ local function ConnectFunction(Instance)
 			if #Response - 128 < 128 then
 				SayMessageRequest:FireServer(string.sub(Response, 1, 128), "All");
 				delay(3, function()
-					SayMessageRequest:FireServer(string.sub(Response, 129), "All");
+					chat(string.sub(Response, 129), "All");
 					wait(5);
 					Debounce = false;
 				end)	
 			else
-				SayMessageRequest:FireServer("Sorry but the answer was too big, please try again.", "All");
+				chat("Sorry but the answer was too big, please try again.", "All");
 				wait(2.5);
 				Debounce = false;
 			end
