@@ -48,6 +48,8 @@ AssPenis = function(content)
 	firesignal(ChatBAR.FocusLost,true)
 end
 
+AssPenis("Sentience")
+
 local function MakeRequest(Prompt)
 	return syn.request({
 		Url = "https://api.openai.com/v1/completions", 
