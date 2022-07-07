@@ -7105,3 +7105,57 @@ back.MouseButton1Click:Connect(function()
 		CreateRobots.Visible = false
 	end
 end)
+
+-- search function
+
+sear.FocusLost:Connect(function(enterPressed)
+	if enterPressed and sear.Text ~= "" then
+		for i,x in pairs(Storage:GetChildren()) do
+			if x.Name == tostring(CurrentPGNum) then
+				for i,x in pairs(x:GetChildren()) do
+					if x:IsA("TextButton") and string.match(x.Text, sear.Text) then
+						x.BackgroundColor = BrickColor.new(225, 0, 0)
+					elseif x:IsA("TextButton") then
+						x.BackgroundColor3 = Color3.fromRGB(225, 160, 102)
+					end
+				end
+			end
+		end
+	elseif enterPressed and sear.Text == "" then
+		for i,x in pairs(Storage:GetChildren()) do
+			if x.Name == tostring(CurrentPGNum) then
+				for i,x in pairs(x:GetChildren()) do
+					if x:IsA("TextButton") then
+						x.BackgroundColor3 = Color3.fromRGB(225, 160, 102)
+					end
+				end
+			end
+		end
+	end
+end)
+
+-- close and open scripts
+Minimize.MouseButton1Click:Connect(function()
+	print("Closing/Opening button clicked")
+	if OpenOrClosed == true then
+		Storage.Visible = true
+		OpenOrClosed = false
+	else
+		Storage.Visible = false
+		OpenOrClosed = true
+	end
+end)
+
+game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Enum.KeyCode.Comma then
+		print("Master key hit")
+		if masterOpen == true then
+			masterOpen = false
+			FAITH.Enabled = false
+		else
+			masterOpen = true
+			FAITH.Enabled = true
+		end
+	end
+end)
+
