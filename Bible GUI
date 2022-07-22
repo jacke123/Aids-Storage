@@ -446,58 +446,18 @@ local Players = game:GetService("Players")
 local t = tick()
 chat = function(content)
 	if ChatBotType == "Remote" then
-		if #content < 128 then --200
-			if t - tick() < 0.70 then
+		if t - tick() < 0.70 then
 				wait(1)
-			end
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All")
-			t = tick();
-			wait(5);
-		else
-			warn("Response (> 128): " .. content);
-			if #content - 128 < 128 then
-				if t - tick() < 0.70 then
-					wait(1)
-				end
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 128), "All")
-				t = tick()
-
-				delay(3, function()	
-					
-					if t - tick() < 0.70 then
-						wait(1)
-					end
-					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 129), "All")
-					t = tick()
-					
-					wait(5);
-					
-				end)
-			end
 		end
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All")
+		t = tick();
+		
 	elseif ChatBotType == "Legit" then
-
-		if #content < 128 then --200
-			local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-			ChatBAR.Text = content
-			firesignal(ChatBAR.FocusLost,true);
-			wait(5);
-		else
-			warn("Response (> 128): " .. content);
-			if #content - 128 < 128 then
-				local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-				ChatBAR.Text = (string.sub(content, 1, 128))
-				firesignal(ChatBAR.FocusLost,true);
-
-				delay(3, function()	
-					local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-					ChatBAR.Text = (string.sub(content, 129))
-					firesignal(ChatBAR.FocusLost,true);
-					wait(5);	
-				end)
-			end			
-		end
+		local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
+		ChatBAR.Text = content
+		firesignal(ChatBAR.FocusLost,true);	
 	end
+end
 
 	endpoint = "http://labs.bible.org/api/?passage=random&type=json"
 	getVerse = function()
@@ -10657,27 +10617,16 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			OpenOrClosed = true
 		end
 	end)
-
-	game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
-				
 	
-				if inputObject.KeyCode == Enum.KeyCode.Comma then
-					
-					print("Master key hit")
-					
-					if masterOpen == true then
-						
-						masterOpen = false
-						
-						FAITH.Enabled = false
-						
-					else
-						
-						masterOpen = true
-						
-						FAITH.Enabled = true
-						
-					end
-			end)
-			
+game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
+		if inputObject.KeyCode == Enum.KeyCode.Comma and masterOpen == true then
+			print("Master key hit")
+			masterOpen = false
+			FAITH.Enabled = false
+		elseif inputObject.KeyCode == Enum.KeyCode.Comma and masterOpen == false then
+			masterOpen = true
+			FAITH.Enabled = true
+		end
+end)
+
 
