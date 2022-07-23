@@ -2,7 +2,7 @@ if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
 
-local ChatBotType = "Remote"
+local ChatBotType = "Legit"
 -- /\ "Remote" uses events to send in chat messages, more elegant and allows you to chat easier while it's sending messages. "Legit" is for games that block the remote method, very janky.
 
 local RATEOFSPEECH = 4
@@ -10498,10 +10498,10 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			LegitOrRemote = function()
 				if ChatBotType == "Legit" then
 					ChatBotType = "Remote"
-					chat("Remote")
+					
 				elseif ChatBotType == "Remote" then
 					ChatBotType = "Legit"
-					chat("Legit")
+					
 				else
 					ChatBotType = "Remote"
 					chat("Defualted to Remote")
