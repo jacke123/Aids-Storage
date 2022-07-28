@@ -556,7 +556,7 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			end,
 
 			Translate = function()
-				loadstring(game:HttpGetAsync('https://i.qts.life/r/ChatInlineTranslator.lua', true))()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/jacke123/Aids-Storage/main/Fixed-InLine-Translator'))()
 			end,
 
 			InfYield = function()
