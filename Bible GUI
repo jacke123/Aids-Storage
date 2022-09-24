@@ -499,7 +499,12 @@ end
 		"rbxassetid://441286912"
 	}
 
+function CustomVerse(verses)
+newf = ("https://bible-api.com/" .. verses:gsub(" ", "+"))
 
+local response = HttpService:JSONDecode(game:HttpGet(newf))
+chat(response.reference .. ": " .. response.text)
+end
 
 
 	--- Custom Sermon work ---
@@ -5236,6 +5241,10 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 		CPrayer = {
 			VerseSpam = function()
 				getVerse()
+			end,
+			
+			["Put Verse in chatbox (without hitting enter)"] = function()
+				CustomVerse(game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar.Text)
 			end,
 
 			DailyPrayer1 = function()
@@ -10518,14 +10527,7 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			print(tonumber(TextBox.Text))
 			print(TextBox.Text .. " changed")
 		elseif enterPressed and tonumber(TextBox.Text) == nil then
-			function CustomVerse(verses)
-				newf = ("https://bible-api.com/" .. verses)
-
-				local response = HttpService:JSONDecode(game:HttpGet(newf))
-				chat(response.reference .. ": " .. response.text)
-			end
-			local guhsss = Textbox.Text:gsub(" ", "+")
-			CustomVerse(guhsss)
+			print("no")
 		end
 	end)
 	-- Button Setup --
