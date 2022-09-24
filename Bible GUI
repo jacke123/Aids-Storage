@@ -10519,6 +10519,14 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			print(TextBox.Text .. " changed")
 		elseif enterPressed and tonumber(TextBox.Text) == nil then
 			RATEOFSPEECH = 4
+			function CustomVerse(verses)
+				newf = ("https://bible-api.com/" .. verses:gsub(" ", "+"))
+
+				local response = HttpService:JSONDecode(game:HttpGet(newf))
+				print(response.reference .. ": " .. response.text)
+			end
+
+			CustomVerse("Textbox.Text")
 			print("nil, set to 4 secs")
 		end
 	end)
