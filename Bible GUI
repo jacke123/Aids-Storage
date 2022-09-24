@@ -10523,7 +10523,7 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 				newf = ("https://bible-api.com/" .. verses:gsub(" ", "+"))
 
 				local response = HttpService:JSONDecode(game:HttpGet(newf))
-				print(response.reference .. ": " .. response.text)
+				chat(response.reference .. ": " .. response.text)
 			end
 
 			CustomVerse("Textbox.Text")
