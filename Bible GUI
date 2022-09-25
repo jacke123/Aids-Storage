@@ -5243,8 +5243,19 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 				getVerse()
 			end,
 			
-			["Put Verse in chatbox (without hitting enter)"] = function()
+			["Put Verse in chatbox then click to chat"] = function()
 				CustomVerse(game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar.Text)
+			end,
+			
+			["Put Verse in chatbox then click to check it"] = function()
+					newf = ("https://bible-api.com/" .. game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar.Text:gsub(" ", "+"))
+
+					local response = HttpService:JSONDecode(game:HttpGet(newf))
+					local message = Instance.new("Message")
+					message.parent = workspace
+					message.text = (response.reference .. ": " .. response.text)
+					wait(5)
+					message:Destroy()
 			end,
 
 			DailyPrayer1 = function()
