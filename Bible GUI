@@ -5248,12 +5248,13 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 			end,
 			
 			["Put Verse in chatbox then click to check it"] = function()
-					newf = ("https://bible-api.com/" .. game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar.Text:gsub(" ", "+"))
+					local textbotextjus = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar.Text
+					newf = ("https://bible-api.com/" .. textbotextjus:gsub(" ", "+"))
 
 					local response = HttpService:JSONDecode(game:HttpGet(newf))
-					local message = Instance.new("Message")
-					message.Parent = workspace
-					message.text = (response.reference .. ": " .. response.text)
+					local guhfrr = Instance.new("Message")
+					guhfrr.Parent = workspace
+					guhfrr.Text = (response.reference .. ": " .. response.text)
 					wait(5)
 					message:Destroy()
 			end,
