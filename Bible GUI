@@ -10,8 +10,8 @@ print("started")
 local Preaching = false
 local looping = false
 local ShowNums = false
-local EnMessage = true
-
+local EnMessage = false
+local autocutmessages = false
 local OpenOrClosed = false
 local masterOpen = false
 -- Turn this to false to make the gui not show up on startup
@@ -446,16 +446,36 @@ local Players = game:GetService("Players")
 local t = tick()
 chat = function(content)
 	if ChatBotType == "Remote" then
+	if autocutmessages == false then
 		if t - tick() < 0.70 then
 				wait(1)
 		end
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All")
 		t = tick();
-		
+	else
+	if #content - 161 < 162 then
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 161), "All");
+	delay(3, function()
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 162), "All");
+	end)	
+else
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All");
+end
+	end
 	elseif ChatBotType == "Legit" then
+	if autocutmessages == false then
 		local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
 		ChatBAR.Text = content
 		firesignal(ChatBAR.FocusLost,true);	
+	else
+	if #content - 161 < 162 then
+    chat(content, 1, 161));
+	delay(3, function()
+		chat(string.sub(content, 162))
+	end)	
+else
+	chat(content);
+end
 	end
 end
 
@@ -12432,6 +12452,14 @@ Fellowship = function()
 					looping = false
 				else
 					looping = true
+				end
+			end,
+			
+			AutoCut = function()
+				if autocutmessages == true then
+					autocutmessages = false
+				else
+					autocutmessages = true
 				end
 			end,
 
