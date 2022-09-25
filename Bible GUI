@@ -5256,7 +5256,7 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 					guhfrr.Parent = workspace
 					guhfrr.Text = (response.reference .. ": " .. response.text)
 					wait(5)
-					message:Destroy()
+					guhfrr:Destroy()
 			end,
 
 			DailyPrayer1 = function()
