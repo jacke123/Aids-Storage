@@ -5252,7 +5252,7 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 
 					local response = HttpService:JSONDecode(game:HttpGet(newf))
 					local message = Instance.new("Message")
-					message.parent = workspace
+					message.Parent = workspace
 					message.text = (response.reference .. ": " .. response.text)
 					wait(5)
 					message:Destroy()
