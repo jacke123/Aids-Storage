@@ -9555,6 +9555,452 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 				Read(Sermon)
 			end;
 
+["Are you listening to David or Goliath = function()
+				local Sermon = {
+				"Are You Listening to God or Goliath?", 
+
+	"(Inspired by article in Charisma August 2016 by Larry Dugger)", 
+
+	"8/10/16 CFBC Chester, IL Dr. Mike Fogerson, Speaker", 
+
+	"Introduction:", 
+
+	"A I wish that once I became a Christian my struggle with sin, depression, discouragement, bad habits would be overcome with just a prayer.", 
+
+	"1 I’ve tried to change over, and over only to end up back in the same old cycle of behavior that brings back to the person that I don’t want to be.", 
+
+	"a It gets frustrating, defeating, discouraging.", 
+
+	"b I do believe there is a way to gain victory over those struggles.", 
+
+	"aa I believe we can change, transformed, know freedom/victory.", 
+
+	"bb It’s a fight . . .battle (spiritual) . . . most Christians will walk away from it.", 
+
+	"cc If we want freedom/victory it means we have to square off with our devils . . . just like Jesus did in the wilderness.", 
+
+	"c The devils we face are the old familiar patterns of behavior that keep us experiencing the same unwanted results.", 
+
+	"aa I want to lose weight w/o dieting/exercise . . . go deeper in Word w/o reading it . . . have a better prayer life w/o praying more . . . Tithe w/o giving 10%.", 
+
+	"bb Sometimes we want change but we get frustrated, “I can never become the person who I want to be.”", 
+
+	"2 The person you are today was shaped by your past . . . the person you will become is determined by what you do right now.", 
+
+	"a There are no short-cuts, timesaving techniques to becoming great, rising above our tribulations/crisis’.", 
+
+	"b It’s a battle, fight and it’s devils you fight.", 
+
+	"I Jesus fought the same devils as we do.", 
+
+	"A Irregardless of how long we’ve been in ministry, attending church being pure, forgiving those who treated unfairly, letting go of devils from our past is a struggle.", 
+
+	"1 There are times I don’t think I’m going to be able to overcome, not going to make it.", 
+
+	"a I feel like the devil has the upper hand and he knows it!", 
+
+	"b He knows he’s getting the best of me . . . has me on the ropes . . . exhausted from fighting.", 
+
+	"aa I don’t want to feel that way, be that way, think like that . . . but I do.", 
+
+	"bb I feel like Paul, “For the good I desire to do, I do not do, but the evil I do not want is what I do.” (Rom. 7.19)", 
+
+	"2 Imagine, my desire to change on one hand and my ability to change in another hand . . .now imagine those hands being a million miles apart.", 
+
+	"a Frustrating, demoralizing . . . feel like your faith is flawed, inadequate.", 
+
+	"b Even doubt your faith, identity in Christ.", 
+
+	"aa Personally: In my greatest struggle of faith I looked good on paper (Pastor, Education, Experience), but in reality my life is sometimes very different.", 
+
+	"bb I questioned my ministry, marriage, my future . . . felt like my life was off the rails.", 
+
+	"cc I knew I ignoring my struggle wasn’t the answer . . . I was going to have to confront myself, my thoughts/feelings.", 
+
+	"B I read Luke 4.1-13, I see Jesus battling a similar battle in the wilderness. (READ Luke passage)", 
+
+	"1 Jesus’ humanity is on full display like never before, in 1080i when He faced the devil in the Judean desert.", 
+
+	"a Jesus wasn’t just battling the devil; He also battled His own humanity . . . Himself.", 
+
+	"b Jesus had to battle the devil proves to me one thing: Spiritual maturity doesn’t take you out of the fight/battle/war.", 
+
+	"aa My devils I fight aren’t the ones Jesus fought, but I must face mine like Jesus did His.", 
+
+	"bb Not ignore, fail to acknowledge, put off . . . face them.", 
+
+	"2 Like Jesus, I would have to spend some time in the wilderness facing what stood in opposition to my future like Jesus in the wilderness . . . David in Elah valley.", 
+
+	"C Goliah had taunted Israel for 40 days like clock work (every morning & evening)", 
+
+	"1 When a young shepherd boy showed up, rose up and refused to listen to the giants voice any longer. Face the giant.", 
+
+	"a He put a stone in the middle of the giants forehead and fell him.", 
+
+	"b After the epic battle . . . David was not seen as a boy, little shepherd any longer. ", 
+	"(Warrior, Soldier, Giant Killer, Bad to the bone . . .eventually become King of Israel.)", 
+
+	"2 Before a soldier can be a warrior, victorious of any battle . . . he must decide to show up for the fight.", 
+
+	"a David showed up, Jesus showed up to fight.", 
+	"b Will you show up for yours?", 
+
+	"II Shutting Out Demonic Voices", 
+
+	"A Goliath had taken advanced courses in Psychological Warfare.", 
+
+	"1 He taunted the Army of Israel from across the valley: “Why do you even bother to show up to battle? Why choose to fight a fight that you can’t win?”", 
+
+	"a When the army heard these taunts, “they were filled with terror.” (1 Sam. 17.11)", 
+
+	"b Have you not heard these same taunts in your spirit?", 
+
+	"aa Why even bother you big phony? Why try? What makes you think you can change you big idiot?", 
+
+	"bb You’ve failed time and time again . . . just go back home.", 
+
+	"2 Goliath’s taunts weren’t just questioning David’s ability . . . but also questioning God’s ability.", 
+
+	"a 1 Samuel 17:26 (NASB) 26 Then David spoke to the men who were standing by him, saying,", 
+	"What will be done for the man who kills this Philistine and takes away the reproach from Israel? ", 
+		"For who is this uncircumcised Philistine, that he should taunt the armies of the living God?", 
+
+		"aa David picked up on what Goliath was throwing down.", 
+
+		"bb The giant was calling God out!", 
+
+		"b Our giant sounds like this, “You have never been able to lose weight before.", 
+		" You’re always going to be depressed because you’re just like your mom.", 
+		" You’ll never be happy like everybody else because you’ve victimized. You need to keep your habit because of all the stress in your life.”", 
+
+		"aa We hear these things and respond like King Saul did before Goliath: paralyzed in fear believing there is no way we can win/overcome.", 
+
+		"bb It’s important that we note that the most qualified person on the field to stand up against Goliath was King Saul.", 
+		" (1 Samuel 9:2 (NASB) 2 He had a son whose name was Saul, a choice and handsome man,", 
+		" and there was not a more handsome person than he among the sons of Israel; from his shoulders and up he was taller than any of the people.)", 
+
+		"B We don’t all look like champions and not everybody who looks like champions are.", 
+
+		"1 We stand on our accomplishments, past victories, family name, title and wonder why we living in victory.", 
+
+		"a Even the prophet Samuel (God’s Superstar Prophet) got caught up in appearances when Jessie’s sons came in bulging men . . . didn’t even notice David.", 
+
+		"aa “He couldn’t fit in the King’s armor! Doesn’t look like a champion.", 
+
+		"bb On that battle field, Saul looked like the most likely person to kill the giant (definitely not David, boy)", 
+
+		"b Saul had the charisma, size, fan club . . . but he was content to simply let the giant keep running his mouth.", 
+
+		"aa David wouldn’t tolerate such defiance.", 
+
+		"bb Saul was bigger on the outside, but David was the bigger man.", 
+
+		"2 This is the picture of lives in many cases.", 
+
+		"a We have on the full armor of God, sword of His Word/faith as our shield, Holy Spirit guiding our steps . . .", 
+
+		"aa The enemies voice taunt us, assure us that we’re defeated, helpless, failures . . . why try?", 
+
+		"bb This is what Saul did.", 
+
+		"b Saul heard the voice of the enemy. David heard the voice of God. (Whose voice will you and I choose to hear?)", 
+
+		"3 1 Samuel 17:1, 16, 23", 
+
+		"1 Now the Philistines gathered their armies for battle; . . .", 
+
+		"1 Samuel 17:16 (NASB) 16 The Philistine came forward morning and evening for forty days and took his stand.", 
+		"1 Samuel 17:23 (NASB) 23 As he was talking with them, behold, the champion, the Philistine from Gath named Goliath,", 
+		" was coming up from the army of the Philistines, and he spoke these same words; and David heard them.", 
+
+		"a Every day the giant defied them, taunted them, was in their face on a daily basis. (Woke up & went to bed)", 
+
+		"b I’d bet this is probably a picture of your life. (Daily struggle)", 
+
+		"aa Most of us lose the battle before it begins.", 
+
+		"bb We don’t fight because it’s bloody, painful, tedious, exhausting.", 
+
+		"cc Every day we wake up thinking we’re failures/doomed/worthless . . . go to bed thinking were failures/doomed/worthless.", 
+
+		"III What do You do When the Devil Is in Your Face?", 
+
+		"A One of the things that makes the battle scene in 1 Samuel a bit odd is the length of time the battle was fought: 40 days . . .It was defiance on daily basis.", 
+
+		"1 It’s probably fair to say that this is a picture of our lives.", 
+
+		"a Everyday we wake up and fight the same fight we fought yesterday.", 
+
+		"aa Most of us get up and hear the enemy every morning . . . last voice we hear at night.", 
+
+		"bb Goliath constantly reminding us he’s bigger than we are, stronger . . . helpless/hopeless situation.", 
+
+		"cc Our minds get no respite, relief from the giants attack.", 
+
+		"b Is this happening in your life?", 
+
+		"aa Goliath isn’t new to most of us.", 
+
+		"bb We’ve learned to simply live with the Giant . . . no longer.", 
+
+		"2 There has something I’ve learned so far: there has been times when my giant was with me every second of the day.", 
+
+		"a I woke up with, ate lunch with, rode to work with, came home with and went to bed with my giant.", 
+
+		"b Defiance is exhausting, depressing, debilitating.", 
+
+		"aa If you don’t rise up/confront the giant . . . the usual defiance will keep you from winning the battle.", 
+
+		"bb “Now the Israelites had been saying, ‘Do you see how this man keeps coming out?’” (1 Sam. 17.25)", 
+
+		"B Goliath kept coming! (He didn’t take a day off, vacation)", 
+
+		"1 Goliath has taken his stand against you/your God.", 
+
+		"a You can overcome, be victorious if you’ll do like David did.", 
+
+		"aa Focus on the size of your God instead of the size of your Goliath.", 
+
+		"bb All David needed was faith and a rock and he brought down a giant; All we need is faith in the rock to bring our giants down.", 
+
+		"b David didn’t need to know how much strength Goliath had, he knew how much strength his God had.", 
+
+		"2 Running away from the giant is not ever going to overcome our giants.", 
+
+		"a Run into the battle, fight . . .", }	
+
+				Read(Sermon)
+			end;
+
+["Baptism"] = function()
+				local Sermon = {
+				"Baptism", 
+
+"Before the time of Christ the Jews were granted favor through the Old Covenant of circumcision", 
+" but now Gentile and Jew alike are saved through baptism, the promise of the New Covenant.", 
+" It is through baptism that we are given the grace to do good things onto others, to preach to others,", 
+" and to become one with God on judgment. Baptism is the cleansing of all sins for God forgives when you come to Him.", 
+" But I shall explain to you the purpose of baptism and its significance.", 
+
+"The need for baptism comes from the reality of Original Sin, a sin that taints all human beings.", 
+" It is not an offense in which one commits or earns but rather a sin that originates with Adam and Eve.", 
+" With the fall of Adam and Eve comes the heavy price that every man is tainted with sin and without baptism will be depraved of the graces necessary for salvation.", 
+
+"The eating of the fruit condemns Adam and Eve to a spiritual death, ", 
+"(Gen. 2:17) for they did not die on the day that they ate the fruit. ", 
+"Rather they died inside and from that day Satan was cursed for corrupting man into disobeying God’s command. ", 
+"Women from that time forth were forced to feel the pains of childbirth and man was forever to labor and toil for his nourishment.", 
+" (Gen. 3:14-19) As Satan shall be cursed, women shall feel pains, and man shall toil,", 
+" so be it that all of humanity from that time on be tainted with original sin.", 
+
+"But why should man have to face such a burden due to the sin of just those two? It is necessary in order to bring man to God. ", 
+"In the Garden of Eden God was always present and in no place could Adam hide. ", 
+"Outside the Garden it is necessary for man to declare his dependency and faith in God.", 
+" Without baptism are we no better than Cain and his descendents? ", 
+" They were children of Adam and Eve yet they did not follow God and were destroyed in Noah’s flood.", 
+
+"And so the descendent of Seth, Noah, ", 
+"was saved from the waters and was granted a Covenant that declared that the world was safe from another flood.", 
+" And so it was revealed to the Jews, the descendents of Abraham and Isaac of original sin. For indeed,", 
+" how can something of sin, how can one that is unclean, bear a child that is pure. Even an infant a few days old is unclean and full of trouble. (Job 14:1-4)", 
+
+"We can admit as a people that we are born in inequity and that we have been conceived of sin. (Psalm 51:5) However, ", 
+"there is still hope and is through the grace of baptism. For Adam’s sin entered the world, caused death by sin,", 
+" and so death is passed to all men, it is thus that all men has sinned. (Romans 5:12)", 
+" But we are given a free gift of baptism but it is not just for Original Sin but in the many offenses against justification.", 
+" The obedience of Christ has allowed for the free gift of baptism that may make many worthy of justification. (Romans 5:16-19)", 
+
+"Through Adam there came death but through Christ there is life. (1 Cor. 15:21) For man without the grace of God is corrupt, ", 
+"sinful, wrathful, disobedient, and works in the fulfillment of the flesh and not of the spirit. (Ephesians 2:1-3) ", 
+"It is needed the grace of baptism for a change in our nature and in our justification.", 
+
+"Why does Paul bring up the sin of Adam? To reminds us of an irrelevant fact? No, for he reminds us the true reality of man. ", 
+"Man is unclean from the moment of conception for no creature can be pure of sin from a creature that is unclean except Christ.", 
+" For how is it possible for such a person to be perfect from an imperfect being? But how can an infant sin or even a child?", 
+" Within each and every person is the desire, the thought, the possibility to sin.", 
+" And this possibility and ability to sin makes us different from Christ who had none.", 
+" In this sense, Original Sin is not what we have done but what we could and will do which makes us unclean.", 
+" It is our spiritual condition. It is through baptism at any age that cleanses one of Original Sin.", 
+
+"In a physical sense how can we see the regenerative abilities in baptism? I would say that in ", 
+"(2 Kings 5:14) we can see the power of water and the Holy Spirit at work. For baptism is a regeneration of the soul,", 
+" we can see the regenerative qualities in Naaman’s joy of being healed. ", 
+" It was prophesized that Lord would come to pour out his water and his spirit upon the people.", 
+" (Isaiah 44:3) For the Lord will sprinkle water upon us to clean us of our sins and idols. ", 
+" The Lord will give us a new heart and a new spirit and as such you will obey the statutes and the judgments of the Lord. (Ezekiel 36:25-27)", 
+"We know this to be important for Paul reminds us of this verse in (Hebrews 10:22)", 
+" for we shall have our hearts sprinkled from an evil conscience and we shall wash our bodies with pure water.", 
+" So Christ being perfect from the beginning would have had no need for baptism but he shows us for example and in the fulfillment of scripture.", 
+" In this way Christ revealed who he was to the people of Israel. John the son of a Levite announces Christ king for he is the Son of David.", 
+" We can see the parallels in (1 Kings 1:39) and so we can now understand the significance of Christ’s baptism.", 
+" Never-the-less upon the baptism of Christ the image of a dove descended upon Christ, the Holy Spirit. (John 1:32)", 
+
+"Christ commands us to be “Born Again” in order to see the Kingdom of God. (John 3:3)", 
+" Christ explains that one is Born Again through water and the Holy Spirit. (John 3:5)", 
+" After this teaching Christ’s disciples begin baptizing with water. (John 3:22).", 
+" For John the Baptist declared that the one after him would baptize with water and with fire.", 
+" That fire being the Holy Spirit. And it came to pass that Christ’s disciples baptized more converts than even John the Baptist. (John 4:1)", 
+
+"The necessity of baptism with the use of water is realized by the eunuch after he is converted by Phillip on his journey.", 
+" (Acts 8:36) Indeed for how can any man forbid the use of water, to forbid baptism, to forbid the receiving of the Holy Spirit? ", 
+" (Acts 10: 47) For the water washes away our sins and causes the regeneration of the self. (Acts 22: 16)(Titus 3:5-6)", 
+
+"Even so I am suspicious that there is a war of words concerning the Biblical significance of baptism. ", 
+"Could baptism be simply a symbolic ceremony? I tell you that the Bible says otherwise.", 
+
+"It is the command of Christ to baptize in the name of the Father, the Son, and in the Holy Spirit to all nations.", 
+" For this power is granted to the disciples by Christ for he has power over heaven and the earth. ", 
+" We as Disciples of Christ shall teach the Word of God and observe every command Christ has given us. ", 
+" In this way baptism is not merely a ceremony or a ritual but has meaning. ", 
+" For if baptism is simply a symbolic reenactment for what reason do you baptize in the name of the three persons of God? (Matthew 28:19-20)", 
+
+"For baptism to have meaning we must repent of our sins before receiving it.", 
+" For as Peter said baptism is the way to receive the Holy Spirit.", 
+" And this promise of salvation through baptism is to the people being baptized and to the next generation and so on. ", 
+" As such the promise of baptism did not end with the first generation; it still exists for us today until the end of time. (Acts 2:38-39)", 
+
+"Belief and Baptism is necessary for salvation for one who does not will be damned. (Mark 16:16)", 
+"It is not just belief for even demons acknowledge God but the water and Spirit of baptism.", 
+
+"The phrase Born Again is “anothen” which literally means “begotten from above.” As such baptism truly grants salvation (John 3:3, 5)", 
+
+"For belief is the only thing necessary for salvation why do all the people stay to be baptized in Acts 8:12-13. ", 
+"It is one thing to believe, one must pledge allegiance to Christ. It is one thing to acknowledge but another to serve.", 
+" Do you hear and not do? Do you believe but have no Spirit in you?", 
+"Be not like the confused hosts of Paul for he asks them if they have received the Holy Spirit. ", 
+"More importantly why does Paul even ask? If baptism is symbolic that why would he ask if they have received the Holy Spirit?", 
+" They believe, this is true, but they do not have the Holy Spirit present in them. For they have been baptized by John,", 
+" a baptism of repentance. For it was John’s baptism that was only of water. That baptism was symbolic,", 
+" in that way the people could symbolically wash themselves of their sins. Why is this not enough?", 
+" It is due to the fact that Christ would come to baptize with water and with fire. ", 
+" And for this reason this host family is immediately baptized and in so doing so they provide proof of the Spirit’s work.", 
+" You can see that that they spoke in tongues and prophesied after the baptism. (Acts 19:1-6)", 
+
+"Acts 19:1 And it came to pass, that, while Apollos was at Corinth, Paul having passed through the upper coasts came to Ephesus: ", 
+"and finding certain disciples,2 He said unto them, Have ye received the Holy Ghost since ye believed? ", 
+"And they said unto him, We have not so much as heard whether there be any Holy Ghost. 3 And he said unto them, ", 
+"Unto what then were ye baptized? And they said, Unto John’s baptism. 4 Then said Paul, ", 
+
+"John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him", 
+", that is, on Christ Jesus. 5 When they heard this , they were baptized in the name of the Lord Jesus.", 
+" 6 And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied.", 
+
+"Paul who decided to give his life to Christ after being converted on the road to Damascus was still baptized.", 
+" For what reason if he was saved? For what reason if he believed? He was baptized for the cleansing of his many sins. (Acts 9:18)", 
+
+"Acts 22:16 gives further evidence of the washing away of sin even onto Paul who converted on the road to Damascus. ", 
+"So thus all people converted and all people who believe shall be baptized. We shall also die in Christ through baptism and not die in death. (Romans 6:4)", 
+
+"At one time we too were sinners but now we are washed from sin, ", 
+"we are sanctified in baptism and we are justified in the name of Christ, ", 
+"and by the Spirit of our God. In this way Baptism is necessary for the washing away of sins and it seals us as a follower of Christ. (1 Cor. 6:11)", 
+
+"Again, baptism is not symbolic for in baptism Christ dwells within us, we put on Christ in our souls.", 
+" (Gal. 3:27) It is not through the righteousness that we have done or according to Christ’s mercy that we are saved.", 
+" Rather we are saved by the washing of regeneration and renewing of the Holy Spirit. ", 
+" In this way we are justified by grace which gives eternal life. (Titus: 3:5-7)", 
+" The act of baptism allows for good conscience toward God, it is not symbolic. (1 Peter 3:21)", 
+
+"There are two exceptions to the water baptism and that is (baptism by desire) and (baptism by blood). ", 
+"The good thief is not baptized but shows a great desire to be remembered by Christ in his last hours.", 
+" In this way he is promised paradise which is not the same as heaven but the righteous dead.", 
+" As such the good thief by his desire is destined for heaven with Christ’s resurrection.", 
+"Baptisms by desire are for those who have died preparing for formal baptism into the Christian church. ", 
+"At the point of death a person can ask for a baptism without the use of water and is saved by this desire.", 
+" The question then remains as to why are not all baptisms treated in this way and I would say that the water baptism is the preferred way.", 
+" It is the baptism given to us by Christ and by his disciples.", 
+" It is the baptism that we can be sure without a doubt that the workings of the Holy Spirit are at work.", 
+" We know this because it was promised to us.", 
+
+"But while water baptism is preferred God is not bound by His sacraments. There is another baptism which is baptism by blood.", 
+" The baptism Christ is talking about is that of his death. In other words martyrs for the faith are considered saved even without baptism.", 
+" For what greater act is there than to die for one’s friends? Matt. 20:22-23", 
+
+"That said unless by unusual circumstances baptisms are to be performed as water baptisms.", 
+" I would also say that the evidence overwhelmingly presses that baptism is not symbolic by a real meaningful pouring of the Holy Spirit", 
+" and granting people the grace necessary to accept Christ and receive salvation.", 
+
+"Baptism is an expression of faith not a work. In this way it is not a ceremony, an observance that in someway pleases God.", 
+" It is not a chore nor could it be considered an act of charity. For if it were to be a work it would have to be symbolic in nature.", 
+" I also conclude that even if baptisms were to be a work it is legitimate for faith, in that faith without works is dead.", 
+
+"I also say that it is not sufficient to simply declare the divinity of Christ and to express that he is your savior.", 
+" You must have the Holy Spirit within you and you must act on your faith or it will be dead.", 
+" For demons know the divinity of Christ and they acknowledge him, thus they tremble, but they do not have the Holy Spirit in them.", 
+
+"Without the pouring of the Holy Spirit how can one perform demonstrations of faith such as speaking in tongues? ", 
+"Indeed how can one perform any work or demonstration of the gifts of the Holy Spirit without water baptism?", 
+
+"It should also be noted that Christ never performed a baptism himself, but why not if was symbolic?", 
+" Nowhere is it mentioned Christ performing a baptism for in John 4:2 ", 
+" it is specifically mentioned that he does not join the disciples in baptizing. ", 
+" The reason for this being is that why would the second person of the Trinity interfere with the work of the third person the Holy Spirit?", 
+
+"I would also say that there is a great deal of religious precedence to water baptism and to its non-symbolic importance.", 
+" Great theologians such as Martin Luther and John Calvin made their opinions known even after 1500 years of Catholic precedence.", 
+
+"“What gifts or benefits does Baptism bestow? ... It effects forgiveness of sins, ", 
+"delivers from death and the devil, and grants eternal salvation to all who believe,", 
+" as the Word and promise of God declare. What is this Word and promise of God? ...", 
+" As recorded in Mark 16:16, our Lord Christ said, “He who believes and is baptized will be saved;", 
+" but he who does not believe will be condemned.” How can water produce such great effects? ...", 
+" It is not the water that produces these effects, but the Word of God connected with the water,", 
+" and our faith which relies on the Word of God connected with the water. ", 
+" For without the Word of God the water is merely water and no Baptism. But when connected with the Word of God it is a Baptism,", 
+" that is, a gracious water of life and a washing of regeneration in the Holy Spirit, as St. Paul wrote to Titus (3:5-8), ", 
+" “He saved us by the washing of regeneration and renewal in the Holy Spirit, whom he poured out upon us richly through Jesus Christ our Savior,", 
+" so that we might be justified by his grace and become heirs in hope of eternal life. The saying is sure.” Martin Luther", 
+"“Nor is it to be supposed that baptism is bestowed only with reference to the past,", 
+" so that, in regard to new lapses into which we fall after baptism,", 
+" we must seek new remedies of expiation in other so-called sacraments,", 
+" just as if the power of baptism had become obsolete... ", 
+" We ought to consider that at whatever time we are baptized,", 
+" we are washed and purified once for the whole of life. Wherefore, ", 
+" as often as we fall, we must recall the remembrance of our baptism,", 
+" and thus fortify our minds, so as to feel certain and secure of the remission of sins. ", 
+" For though, when once administered, it seems to have passed, it is not abolished by subsequent sins.” John Calvin", 
+
+"There is only one baptism for if it were to be symbolic people could and would baptize themselves several times during their life times.", 
+" Rather we are not called to be baptized again and again to be absolved of sins but in repentance.", 
+
+"“In Baptism we are given the grace, Spirit, and power to suppress the old man so that the new may come forth and grow strong.", 
+" Therefore Baptism remains forever. Even though we fall from it and sin,", 
+" nevertheless we always have access to it so that we may again subdue the old man. ", 
+" But we need not again have the water poured over us. Even if we were immersed in water a hundred times, ", 
+" it would nevertheless be only one Baptism, and the effect and signification of Baptism would continue and remain. ", 
+" Repentance, therefore, is nothing else than a return and approach to Baptism,", 
+" to resume and practice what had earlier been begun but abandoned.” Martin Luther", 
+
+"While baptism is necessary for the salvation of man one must continue to have faith. Without faith baptism cannot save you.", 
+
+"“He who believes and is baptized will be saved,” that is, faith alone makes the person worthy to receive the salutary,", 
+" divine water profitably. Since these blessings are offered and promised in the words which accompany the water, ", 
+" they cannot be received unless we believe them wholeheartedly. Without faith Baptism is of no use,", 
+" although in itself it is an infinite, divine treasure,” Martin Luther", 
+
+"So what if a person was to be baptized without faith? What if he is a Judas, an imposter, one who is not true of heart?", 
+
+"How dare we think that God’s Word and ordinance should be wrong and invalid because we use it wrongly? ", 
+"Therefore, I say, if you did not believe before, then believe afterward and confess, “The Baptism indeed was right,", 
+" but unfortunately I did not receive it rightly.” Martin Luther", 
+
+"Now that you are armed with the truth and overwhelming evidence go out and advance the cause of baptism.", 
+" If you are not already baptized this would be the time to consider becoming a Christian, so close as it is to Easter.", 
+" If you are in the process of becoming a Christian I say to you that your reflection and discovery of the faith", 
+" in order to achieve baptism is not in vain. It is a necessary experience not to just be a number in a church book,", 
+" but indeed to be written in the Book of Life. While it cannot be promised that all challenges and temptations will disappear", 
+" after the moment of baptism you will be assisted and strengthened by the Holy Spirit within. You will be encouraged through ", 
+" the will of the Holy Spirit in those around you, the congregation. As you prepare for baptism realize", 
+" that on the day of it you are now a member of the church, the Christian community. You are the saved, the elect,", 
+" the faithful; you are one with the Body of Christ. You become a temple for the Spirit and thus you must act accordingly", 
+" so as to not defile the body which is the temple.", 
+
+"In conclusion I hope that when you experience baptism or witness it that you have a greater appreciation for its importance in Christian life.", 
+				}
+
+				Read(Sermon)
+			end;
+
 			AscensionSermon = function()
 				local Sermon = {
 					"“I Believe”—sermon series on the Apostles Creed", 
@@ -9838,6 +10284,148 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 					"There are also those who see God for who He is… a holy and just God who has the right to judge and punish us… ",
 					"but also a loving and trusting God in whom we can place our trust… an ON whose mercy and grace we can throw our eternal destiny!",
 					"Jes##s died for BOTH… Jes##s died for ALL… let us rejoice that He did… PRAY!"
+				}
+
+				Read(Sermon)
+			end;
+
+Fellowship = function()
+				local Sermon = {
+					"Humor: Years ago, Leslie Flynn penned a book called, Great Church Fights.", 
+"In it he chronicled the way people in different churches would go after each other – all in the name of Jesus Christ.", 
+"A young father heard a commotion out in his backyard;", 
+"he looked outside and saw his daughter and several playmates in a heated quarrel.", 
+"When he intervened, his daughter called back, “Dad, we’re just playing church!”", 
+
+"Fellowship helps you face life’s problems by providing the support and encouragement of other Christians.", 
+"The church is meant to be a place where we experience in depth relationships and life long friendships are developed.", 
+
+"The purpose of this message is to challenge you to develop deeper relationships within the", 
+"church and in effect enhance your own personal relationship with God.", 
+"These relationships don’t just end here on earth when they are in Christ they are eternal.", 
+
+"Last week we talked about the Crowd, and the Committed this week I want to look at the Core or the inner circle, Peter, James and John.", 
+
+"How many times in the Bible does it tell us to do things alone as Christians? The Bible is full of one another commands.", 
+
+"God created family so we could have relationships that become intimate so we could enjoy one another’s company and companionship.", 
+"Have you ever noticed in the wild how they have swarms of bees,", 
+"flocks of birds and herds of buffalos? In Dallas they have High Occupancy Vehicles", 
+"lanes that get you there faster because your not slowed down by individual vehicles driven by individual people.", 
+"On the Highway to heaven God wants you to travel in a High Occupancy Vehicle. ", 
+"When traveling in the HOV lane you pass up most of the jams you would have gotten into alone.", 
+"The same is true when you’re a part of a healthy fellowship.", 
+
+"There are many analogies for a Christian disconnected from a church: a football player without a team; ", 
+"a soldier without a platoon; a tuba player without an orchestra; a sheep without a flock.", 
+"But the most understandable (and biblical) picture is that of a child without a family.", 
+
+"Today we have a record number of single adults in America. Vance Packard calls America ", 
+"“ a nation of strangers. As a result we’re experiencing an epidemic of loneliness in society. ", 
+"One Gallup poll reported that four in ten Americans admit to frequent feelings of “intense loneliness.”", 
+"Americans are, in fact, the loneliest people in the world.", 
+
+"Everywhere you look there are signs that people are hungering for fellowship, community,", 
+"and a sense of family. Beer commercials, for instance, don’t sell beer, they sell fellowship.", 
+"No one is ever portrayed drinking alone; it’s always done in the context of people enjoying each other’s company.", 
+"Phrases accompany the commercials like: “it doesn’t get any better than this!”", 
+"Advertisers have discovered that independent-minded baby boomers are suddenly longing to be connected as they enter middle age.", 
+
+"Illustration: Claria Knall a young mother from Oklahoma writes it was one of the worst days of my life.", 
+"The washing machine broke down, the telephone wouldn’t stop ringing my head ached and the mailman brought a bill I had no money to pay.", 
+"Almost at the breaking point I lifted my one year old into the high chair, ", 
+"leaned my head against the tray and began to cry. Without a word my son took his pacifier out of his mouth and stuck it into mine.", 
+
+"From the time were born we know people need love and need to be cared for and the ", 
+"church ought to be a place where the deepest love and the deepest caring for each other is real.", 
+
+"John 13:34-35", 
+
+"34'A new command I give you: Love one another. As I have loved you, so you must love one another.", 
+"35By this all men will know that you are my disciples, if you love one another.'", 
+
+"1. Healthy Christian fellowship meets our need for reinforcement.", 
+
+"Sometimes when you’re out in the world with your convictions you can get to feeling like you’re all alone.", 
+"Like you’re the only one who doesn’t cheat, steal and lie.", 
+"Your kids say everybody else is going to the party or to see this movie. It’s so encouraging when you fellowship with someone who shares your commitments.", 
+
+"Hebrews 10:25 drives this thought home, that we need to spur one another on towards good works.", 
+
+"Eccl 4:9-10", 
+
+"9 Two are better than one, because they have a good return for their work: 10If one falls down,", 
+
+"his friend can help him up. But pity the man who falls and has no one to help him up!", 
+
+"2. Healthy fellowship meets our needs for accountability.", 
+
+"The world can be a very tempting place. We never get so spiritually mature that we don’t need the gentle rebuke or reminder of a Christian friend.", 
+"Paul had to rebuke Simon Peter because he was falling back into legalism.", 
+"Proverbs 27:17", 
+
+"17 As iron sharpens iron, so one man sharpens another.", 
+
+"We need fellowship for a strong testimony.", 
+
+"The world is a pretty skeptical place. They are cenacle about the church and it’s motives.", 
+"But there is one thing that always impresses the world and that is when they see how the church loves one another.", 
+
+"Illustration: A preacher in Tennessee said his father was not a Christian and never went to church.", 
+"He said everyone else in the family would get ready and go to church and his dad would stay home.", 
+"The preacher would come by and visit and his dad would always give him the same pat answer;", 
+"I know why you’re here and I know what you want, you want another name and another pledge,", 
+"you don’t care about me. He said if I heard my dad say it once I heard him say it 20 times.", 
+"He said towards the end of his life his dad got throat cancer. He had surgery and couldn’t talk.", 
+"He said as his dad was wasting away in the hospital room it was filled with flowers and cards almost all of them from someone in the church.", 
+"Food came to his house from his mom’s Sunday school class at the church. He said people came and prayed with my dad from the church. ", 
+"He said one day even though my dad couldn’t talk he took a scrape of paper and scribbled words from Shakespeare’s Hamlet.", 
+"“In this harsh world draw your breath in pain to tell my story.” He said, dad what is your story? ", 
+"His dad with trembling hand wrote on the scrape of paper, “I was wrong, I was wrong about the church.” ", 
+"He said I got to talk with my dad about salvation in Christ before he died. Simply because of the love and the fellowship of a church.", 
+
+"For those of you who want to deepen your fellowship in the church I have some advise for you.", 
+
+"Get involved in Sunday school,", 
+"you may not have the best Sunday school lesson every week but I guarantee you will build some lasting friendships that you’ll deeply cherish.", 
+"Or if you can, try coming on a Wednesday night the setting is much more casual and intimate than on Sunday.", 
+
+"Illustration: Sam Walton founder of Wal-Mart had a pledge he made all his employees say.", 
+"From this day forward if a costumer comes with in 10 feet of me regardless of what I’m doing in this place I’m going to look them in the eye I’m going to smile,", 
+"I’m going to greet them with a good morning, or good afternoon or what can I do for you so help me Sam.", 
+"Wouldn’t it be great if everyone in this church would make a good Samaritan pledge?", 
+"From this day forward every person who comes within 10 feet of me regardless of what I’m doing in this church I’m going to look them in the eye I’m going to smile,", 
+"I’m going to greet them with a good morning, or good afternoon, or what can I go for you so help me God.", 
+
+"I heard of some people in a church who said they have a 5-minute rule. After church for the first five-minutes they don’t gravitate to each other.", 
+"They spend the first five minutes meeting new people and saying hello to others. ", 
+"Remember when Saul of Tarsus came to the church in Jerusalem and they shunned him because they didn’t believe in the authenticity of his conversion.", 
+"But Barnabas took him and brought him to the apostles and told them how Saul’s conversion was legitimate.", 
+"And they accepted the man who was to become the apostle Paul. That’s the purpose of the Barnabas ministry.", 
+"Conclusion: Dr. Fred Craddic tells of the time he was asked to speak in Winnipeg, Canada. ", 
+"When he wakened on Sunday morning to a couple of feet of snow his host called him at the hotel", 
+"and said Fred this is surprise to us there is so much snow we can’t get to the hotel to pick you ", 
+"up so were going to cancel the lecture series. Fred said what shall I do? His host said well a block", 
+"and a half to the right of the entrance of the hotel there is a bus depot, I know there is a deli in ", 
+"their and you can get something to eat there. Craddic said the place was packed but when he went in some", 
+"people moved over and made room for him. Many people in there where just in to get out of the cold. ", 
+"He said I ordered a bowl of soup and a few minutes later someone opened the door and a shout came", 
+"from inside the deli that said, “hey shut that door your letting all the warm air out”.", 
+"In came a rather unkempt woman, a couple of people made some room for her, she sat down.", 
+"A large man with a greasy apron came over and asked in a loud voice, “What do you want?”", 
+"She said I’ll just take a glass of water. He sat the water in front of her and said, ", 
+"“now what do you want?” She said, “The water is fine.” He said, “lady what do you want?” ", 
+"She said, “Water is fine”. He said, “Look lady there is paying customers in here either you going ", 
+"to have to order something else or get out.” She said, “Can I just stay in out of the cold?” He said,", 
+"“No you have to order something, or leave.” Slowly she scooted out of her seat and started to leave. ", 
+"But when she did the person on her right and left also got up to leave. Then the persons on each side", 
+"of them got up to leave. And pretty soon everyone started to leave, and the man in the greasy apron said,", 
+"“All right come on back you can stay”. She sat down and he even gave her a bowl of soup. Craddic asked the man beside him,", 
+"“Who is that lady?” The man said I don’t know, but if she’s not welcome I’m not welcome. ", 
+"Fred Craddic said you know, as I started to eat that soup it wasn’t so bad.", 
+"The matter of fact it reminded me of something I had eaten before and I couldn’t figure out why it tasted so familiar as I ate that bowl of soup.", 
+"He said I left that little deli and I looked back at that woman sitting there in that atmosphere I remembered what that soup tasted like.", 
+"It tasted like the bread and wine of communion.", 
 				}
 
 				Read(Sermon)
