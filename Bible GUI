@@ -7232,6 +7232,165 @@ A easy way to do this would be to use notepad++ or roblox studio's find and repl
 
 				Read(Sermon)
 			end;
+			
+			AngelsSermon = function()
+				local Sermon = {
+					"Angels are mentioned over 300 times in the Christian Bible,",
+" slightly more often in the New Testament.",
+" The word angel comes from a Greek word ???e??? ",
+" (angelos) meaning a messenger.",
+" So, the study of angels is called angelology.",
+
+"Were angels created by God?",
+
+"“For in him all things were created: things in heaven and on earth, visible and invisible, ",
+"whether thrones or powers or rulers or authorities; all things have been created through him and for him.” (Colossians 1:16 NIV)",
+
+"Good Angels",
+
+"What is an important job for angels?",
+
+"“Are they not all ministering spirits,",
+" sent forth to minister for them who shall be heirs of salvation?” (Hebrews 1:14 KJV)",
+
+"How can Angels be referred to collectively?",
+
+"“...Therefore, hear the word of the LORD.",
+" I saw the LORD sitting on His throne,",
+" and all the host [or army] of heaven standing by Him on His right and on His left.”",
+" (1 Kings 22:19 NASB)",
+
+"“And suddenly there was with the angel a multitude of the heavenly host [or army] praising God and saying,",
+" ‘Glory to God in the highest, and on earth peace among those with whom he is pleased!’ ” (Luke 2:13-14 ESV)",
+
+"Are both humans and angels called sons or children of God?",
+
+"“For you are all sons of God through faith in Christ Jesus.” (Galatians 3:26 NASB)",
+
+"“Now there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them.” (Job 1:6 KJV)",
+
+"Can angels as well as humans be called saints or holy ones?",
+
+"“The highest angelic powers [holy ones, saints] stand in awe of God. He is far more awesome than all who surround his throne.” (Psalm 89:5-7 NLT)",
+
+"Do the holy angels praise God?",
+
+"“Suddenly many other angels came down from heaven and joined in praising God…” (Luke 2:13 CEV)",
+
+"Do angels have free will? Did some choose disobedience?",
+
+"“... the angels who did not stay within the limits of authority God gave them but left the place where they belonged. ",
+"God has kept them securely chained in prisons of darkness, waiting for the great day of judgment.” (Jude 6 NLT)",
+
+"Are angels slightly higher than human beings?",
+
+"“What is man that You are mindful of him, And the son of man that You visit him? For You have made him a little lower than the angels,",
+" And You have crowned him with glory and honor.” (Psalm 8:4-5 NKJV)",
+
+"Are angels able to have children?",
+
+"“For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven.” ",
+"(Matthew 22:30 KJV)",
+
+"Are angels also inferior to Christ?",
+
+"“... But when He again brings the firstborn into the world, He says: ‘Let all the angels of God worship Him.’",
+" … to the Son He says: ‘Your throne, O God, is forever and ever’ …” (Hebrews 1:1-14 NKJV)",
+
+"What kind of angel is Michael?",
+
+"“But even the archangel [leading angel, chief angel] Michael, when he was disputing with the devil about the body of Moses,",
+" did not himself dare to condemn him for slander but said, ‘The Lord rebuke you!’ ” (Jude 9 NIV)",
+
+"Do some angels have wings?",
+
+"“Seraphim [or fiery angels] stood above Him, each having six wings: with two he covered his face, and with two he covered his feet,",
+" and with two he flew.” (Isaiah 6:2 NASB)",
+
+"What about cherubs? Note: im is the Hebrew plural, so cherubs can also be cherubim.",
+
+"“For the cherubim spread their two wings over the place of the ark, and the cherubim overshadowed the ark and its poles.”",
+" (1 Kings 8:7 NKJV)",
+
+"“After he drove the man out,",
+" he placed on the east side of the Garden of Eden cherubim and a flaming sword flashing back and forth to guard the way to the tree of life.”",
+" (Genesis 3:24 NIV)",
+
+"Are there other kinds of angels?",
+
+"“… Also out of the midst thereof came the likeness of four living creatures. And this was their appearance; they had the likeness of a man.",
+" And every one had four faces, and every one had four wings…” (Ezekiel 1:4-28 KJV)",
+
+"“… And before the throne there was a sea of glass like unto crystal: and in the midst of the throne,",
+" and round about the throne, were four beasts full of eyes before and behind. And the first beast was like a lion,",
+" and the second beast like a calf, and the third beast had a face as a man, and the fourth beast was like a flying eagle…” (Revelation 4:4-8 KJV)",
+
+"Are some guardian angels?",
+
+"“Beware that you don’t look down on any of these little ones.",
+" For I tell you that in heaven their angels are always in the presence of my heavenly Father.” (Matthew 18:10 NLT)",
+
+"“For he will command his angels concerning you to guard you in all your ways” (Psalm 91:11 NIV)",
+"Do angels sometimes help people directly?",
+
+"“And there appeared to him an angel from heaven, strengthening him.” (Luke 22:43 ESV)",
+
+"“Are not all angels ministering spirits sent to serve those who will inherit salvation?” (Hebrews 1:14 NIV)",
+
+"Do angels rejoice over us?",
+
+"“Likewise, I say to you, there is joy in the presence of the angels of God over one sinner who repents.” (Luke 15:10 NKJV)",
+
+"Do angels sometimes communicate directly with humans?",
+
+"“For last night an angel of the God to whom I belong and whom I serve stood beside me, and he said, ",
+"‘Don’t be afraid, Paul, for you will surely stand trial before Caesar! What’s more,",
+" God in his goodness has granted safety to everyone sailing with you.’ ” (Acts 27:23-24 NLT)",
+
+"“Now an angel of the Lord said to Philip,",
+"‘Go south to the road—the desert road—that goes down from Jerusalem to Gaza.’ ” (Acts 8:26 NIV)",
+
+"Bad Angels",
+
+"Have some angels rebelled against God?",
+
+"“For God did not spare even the angels who sinned. He threw them into hell,",
+" in gloomy pits of darkness, where they are being held until the day of judgment.” (2 Peter 2:4 NLT)",
+
+"What did Jesus teach about the devil and evil angels or demons?",
+
+"“... He was a murderer from the beginning, not holding to the truth, for there is no truth in him. When he lies,",
+" he speaks his native language, for he is a liar and the father of lies.” (John 8:44 NIV)",
+
+"“The enemy who planted the weeds among the wheat is the devil. The harvest is the end of the world,",
+" and the harvesters are the angels.” (Matthew 13:39 NLT)",
+
+"“Then the King will turn to those on the left and say, ‘Away with you, you cursed ones,",
+" into the eternal fire prepared for the devil and his demons.” (Matthew 25:41 NLT)",
+
+"How can we have victory over such evil?",
+
+"“Submit yourselves, then, to God. Resist the devil, and he will flee from you.",
+" Come near to God and he will come near to you. Wash your hands, you sinners, and purify your hearts, you double-minded.” (James 4:7-8 NIV)",
+
+"“For our struggle is not against flesh and blood, but against the rulers, against the authorities,",
+" against the powers of this dark world and against the spiritual forces of evil in the heavenly realms.",
+" Therefore put on the full armor of God…” (Ephesians 6:12-18 NIV)",
+
+"Who will win?",
+
+"“The God of peace will soon crush Satan under your feet. May the grace of our Lord Jesus be with you.” (Romans 16:20 NLT)",
+
+"“… Christ… far above all rule and authority and power and dominion, and every name that is named, ",
+"not only in this age but also in the one to come. And He put all things in subjection under His feet,",
+" and gave Him as head over all things to the church” (Ephesians 1:20-22 NASB)",
+
+"Angels are mentioned often throughout the Bible. Holy angels are also saints, and serve both God and us.",
+" They rejoice when we repent. When we submit to God and resist the devil, he will flee from us. In Christ, we have final victory.",
+				}
+
+				Read(Sermon)
+			end;
 				
 			["The Rich man and Lazarus"] = function()
 				local Sermon = {
