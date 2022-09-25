@@ -453,7 +453,7 @@ chat = function(content)
 			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All")
 			t = tick();
 		else
-			if #content - 161 < 162 then
+			if string.len(content) - 161 < 162 then
 				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 161), "All");
 				delay(3, function()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 162), "All");
@@ -468,7 +468,7 @@ chat = function(content)
 			ChatBAR.Text = content
 			firesignal(ChatBAR.FocusLost,true);	
 		else
-			if #content - 161 < 162 then
+			if string.len(content) - 161 < 162 then
 				chat(string.sub(content, 1, 161));
 				delay(3, function()
 					chat(string.sub(content, 162))
@@ -13720,4 +13720,3 @@ game:GetService("UserInputService").InputBegan:connect(function(inputObject, gam
 		FAITH.Enabled = true
 	end
 end)
-
