@@ -57,7 +57,7 @@ local TextBox = Instance.new("TextBox")
 --Properties:
 
 FAITH.Name = ".. F. A I T .H !."
-FAITH.Parent = game.Players.LocalPlayer.PlayerGui
+FAITH.Parent = game.CoreGui
 FAITH.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 FAITH.ResetOnSpawn = false
 
