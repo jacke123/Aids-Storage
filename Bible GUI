@@ -438,13 +438,40 @@ local timerbb = 30;
 math.randomseed(tick())
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-
+local filt = false
 
 -- funcs
-
+local filterss = {
+    ["Jesus"] = "J#$#S",
+    ["Slave"] = "SL*AV@",
+    ["Baptise"] = "B*PT$SE",
+    ["Christian"] = "Chr##st####n",
+    ["Wife"] = "W*F#",
+    ["Homosexual"] = "H###s#x##l",
+    ["Sex"] = "S##",
+    ["Ass"] = "A##",
+    ["Christ"] = "Christ",
+    ["abortion"] = "ab#r###n",
+    ["Catholic"] = "C#t#$lic",
+    ["Slave"] = "SL*AV@",
+    ["Redneck"] = "r##n#ck",
+    ["Christian"] = "Chr##st####n",
+    ["naked"] = "n#k##",
+    ["Sodomist"] = "So#om###",
+    ["sexual"] = "s##ual",
+    ["retard"] = "r#t##d",
+    ["niger"] = "n##er",
+    ["nigger"] = "N######",
+    ["protestant"] = "pr#te####nt"
+}
 
 local t = tick()
 chat = function(content)
+    if filt == true then
+        for key, value in pairs(filterss) do
+            content = content:gsub(key, value)
+        end
+    end
 	if ChatBotType == "Remote" then
 		if autocutmessages == false then
 			if t - tick() < 0.70 then
@@ -13592,6 +13619,14 @@ local Pages = {
 				autocutmessages = false
 			else
 				autocutmessages = true
+			end
+		end,
+		
+		FilterMessages = function()
+			if filt == true then
+				filt = false
+			else
+				filt = true
 			end
 		end,
 
