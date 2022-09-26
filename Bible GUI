@@ -453,14 +453,13 @@ chat = function(content)
 			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All")
 			t = tick();
 		else
-			if #content < 128 then --200
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Response, "All");
+			if string.len(content) < 200 then --200
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All");
 		else
-			warn("Response (> 128): " .. Response);
-			if #content - 128 < 128 then
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 128), "All");
+			if string.len(content) - 160 < 201 and string.len(content) > 200 then
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 150), "All");
 				wait(RATEOFSPEECH)
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 129), "All");
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 151), "All");
 			else
 				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Sorry but the line was too large for auto cut, please try again.", "All");
 				wait(RATEOFSPEECH)
@@ -474,21 +473,18 @@ chat = function(content)
 			ChatBAR.Text = content
 			firesignal(ChatBAR.FocusLost,true);	
 		else
-			if #content < 128 then --200
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Response, "All");
+			if string.len(content) < 200 then --200
+			local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
+			ChatBAR.Text = content
+			firesignal(ChatBAR.FocusLost,true);	
 		else
-			warn("Response (> 128): " .. Response);
-			if #content - 128 < 128 then
-				local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-			ChatBAR.Text = 	(string.sub(content, 1, 128));
-			firesignal(ChatBAR.FocusLost,true);
-				wait(RATEOFSPEECH)
-				ChatBAR.Text = 	(string.sub(content, 129));
-			firesignal(ChatBAR.FocusLost,true);
+			if string.len(content) - 160 < 201 and string.len(content) > 200 then
+			    local one = string.sub(content, 1, 160)
+			    local two = string.sub(content, 161)
+			chat(one);
+			chat(two);
 			else
-				local ChatBAR = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
-			ChatBAR.Text = 	("Sorry but the line was too large for auto cut, please try again.");
-			firesignal(ChatBAR.FocusLost,true)
+			chat("Sorry but the line was too large for auto cut, please try again.");
 			end
 		end
 		end
