@@ -484,11 +484,13 @@ chat = function(content)
 			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(content, "All");
 		else
 			if string.len(content) - 160 < 201 and string.len(content) > 200 then
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 1, 150), "All");
-				wait(RATEOFSPEECH)
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string.sub(content, 151), "All");
+				local one = string.sub(content, 1, 160)
+			    local two = string.sub(content, 161)
+			chat(one);
+			wait(2)
+			chat(two);
 			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Sorry but the line was too large for auto cut, please try again.", "All");
+				chat("Sorry but the line was too large for auto cut, please try again.");
 				wait(RATEOFSPEECH)
 				
 			end
@@ -509,6 +511,7 @@ chat = function(content)
 			    local one = string.sub(content, 1, 160)
 			    local two = string.sub(content, 161)
 			chat(one);
+			wait(2)
 			chat(two);
 			else
 			chat("Sorry but the line was too large for auto cut, please try again.");
